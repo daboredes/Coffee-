@@ -1,0 +1,28 @@
+links que van en head:
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    
+link que va al final del body:
+    <!-- Custom js file link -->
+    <link rel="stylesheet" href="js/script.js">
+    
+si tipeas header.header se crea un header con class 'header'
+.algo crea un div con class 'algo'
+
+Para los iconos, el tipea:
+.fas.fa-search#search-btn que crea:
+<div class="fas fa-search" id="search-btn"></div>
+el.algo crea un div, y el # crea la id para el div.
+Me llama la atencion que no use i para los iconos
+
+Para la fuente, la elige en fonts.google, y en vez de link usa import y lo pega en style.css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+Parece que es mejor link para todo, entonces voy a usar link
+
+En styles.css el usa:
+*{} que es el comodin, targetea a todos los elementos.
+
+al id: menu-btn le da display none, supongo que luego con @media lo mostrara. Yo quiero hacerlo responsive con bootstrap
